@@ -1,0 +1,26 @@
+ #container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #tile{
+        background-color:lightseagreen;
+     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: flex-start;
+    align-items: center;}
+    .elemImg{
+        width:290px;
+        height:290px;
+    }
+    .elemImgGreen{
+        width:290px;
+        height:290px;
+        box-sizing: border-box;
+        border: 25px;
+        border-color: darkgreen;
+        border-style: solid;
+    }
+    .elemTitleGreen{color:green;}
